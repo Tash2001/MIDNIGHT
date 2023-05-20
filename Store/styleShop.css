@@ -1,0 +1,440 @@
+body{
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.header {
+  display: flex;
+  top:0;left: 0;right: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 97%;
+  background-color: rgb(0, 0, 0);
+  z-index: 200;
+  box-shadow: 1px 1px 1px 1px #eee;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+
+
+}
+
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul a li {
+  list-style-type: none;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.header ul a:hover {
+  color: rgb(141, 141, 141);
+  transition: all 0.5s;
+}
+.container{
+  max-width:100%;
+  margin :0 auto;
+  background: #841818;
+  font-size:24px;
+  padding:25px;
+}
+.parallax{
+  background-image:url(images/hero-guitar-outro.jpg);
+  background-repeat: no-repeat center;
+  background-attachment: fixed;
+  background-size:cover;
+  width:100%;
+  height:70vh;
+  margin-top: 60px;
+ 
+  text-align:right;
+  color:#ffffff;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+h1{
+
+  text-align:center;
+  bottom:center/left/right;
+  font-size:130px;
+  color:rgb(255, 255, 255);
+
+
+}
+
+h2{
+  text-align: center;
+  bottom: center/left/right;
+  font-size: 120px;
+  color: rgb(251, 250, 250);
+  text-shadow:4px 4px 8px #000000;
+  
+}
+
+.product1{
+  background-image:url(images/jazz-music-band-concept-different-instruments-vector-35931702.jpg);
+  background-repeat: no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+.product2{
+  background-image:url(images/shutterstock_790149094-1.jpg);
+  background-repeat: no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+
+.row{
+  display:flex;
+ 
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+
+}
+.col{
+  flex-basis:20%;
+  min-width:250px;
+  margin-bottom:50px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-style:solid;
+  transition:transform 0.2s;
+  text-align:center;
+  
+
+}
+.col img{
+  width: 100%;
+  height: 75%;
+
+}
+.nextContainer{
+  max-width:1080px;
+  margin:auto;
+  padding-top: 30px;
+  padding-left:20px;
+  padding-right:20px;
+
+}
+.catergory{
+  margin:70px 0;
+}
+.col:hover{
+  transform:translateY(-20px);
+}
+.button {
+  transition-duration: 0.3s;
+  border-radius: 70px;
+  border-color:rgb(236, 162, 66);
+  width:120px;
+  height:27px;
+
+}
+.button:hover {
+  background-color: rgb(236, 162, 66);
+  color: white;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size:32px;
+  color:rgb(236, 162, 66);
+}
+.details{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size:30px;
+  color:#eee;
+}
+
+
+
+.login{
+  text-align:center;
+  color: #841818;
+  font-size:100px;
+}
+
+.contact-description {
+  margin-bottom: 40px;
+  color: rgb(236, 162, 66);
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 280px;
+  border: 1px solid rgb(0, 114, 66);
+  font-size: 18px;
+  outline: none;
+  color: rgb(176, 40, 40);
+}
+
+.form-control {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}.invalid {
+  border: 1px solid red;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.hide {
+  opacity: 0;
+}
+form {
+  padding: 40px;
+}
+
+btn {
+  color: black;
+  padding: 20px;
+  border: 1px solid rgb(0, 114, 66);
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: rgb(0, 114, 66);
+}
+
+btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+}
+
+form {
+  padding: 40px;
+}
+
+hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 1px;
+  border: none;
+  background-color: rgb(0, 114, 66);
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-remove {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-remove:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    border-radius: 8px;
+}
+.btn-purchase:hover {
+    background-color: #f7d8a6;
+}
+.btn-purchase:active {
+  background-color: #F79489;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+
+.shop-item-details{
+    font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-size:20px;
+}
+::selection{
+  background: orange;
+  color: #fff;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: rgb(243, 218, 172);
+  bottom: 40px;
+  right: 50px;
+  border-radius:25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+footer {	
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(161, 161, 172);
+  text-align: center;
+}
+
+    
+footer a{
+color:white; 
+}
+footer a:hover{
+  color: grey;
+}
+
+
+.social > a {
+font-size:24px;
+width:40px;
+height:40px;
+line-height:40px;
+display:inline-block;
+text-align:center;
+border-radius:50%;
+border:1px solid black;
+margin:0 8px;
+color:inherit;
+opacity:0.75;
+}
+
+.social {
+padding-top: 1%;
+padding-bottom: 1%;
+ text-align:center;
+}
+.pageEditor {
+text-align:center;
+padding-bottom: 1%;
+}

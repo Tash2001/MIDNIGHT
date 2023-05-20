@@ -1,0 +1,115 @@
+body {
+    background-color: #841818;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    background-color: black;
+    z-index: 200;
+    box-shadow: 1px 1px 1px 1px #eee;
+    width: 100%;
+    
+  }
+  
+
+  .header ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .header ul a li {
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: 500;
+  }
+  
+  .header ul a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .header ul a:hover {
+    color: rgb(141, 141, 141);
+    transition: all 0.5s;
+  }
+
+h1 {
+    color: white;
+    margin-left: 40%;
+}
+
+
+.form {
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    background: rgba(15, 15, 15, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(15, 15, 15, 0.33);
+    width: 50%;
+    background: rgba(15, 15, 15, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(15, 15, 15, 0.33);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.button {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+ 
+footer {	
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(161, 161, 172);
+    text-align: center;
+ }
+	
+	    
+footer a{
+	color:white; 
+}
+footer a:hover{
+    color: grey;
+}
+
+
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.social {
+  padding-top: 1%;
+  padding-bottom: 1%;
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+  padding-bottom: 1%;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="Gallery.css">
+	<link rel="icon" type="LOGO" href="LOGO.png" alt="logo">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+		function btn() 
+		{
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;	
+		}
+		function changeBackgroundColour(backgroundcolour) 
+                {
+       				var val1 = backgroundcolour.options[backgroundcolour.selectedIndex].value;
+                    document.body.style.background=val1;
+                }
+			
+		function changeTextColour(textcolour)					
+                {
+                    var val2 = textcolour.options[textcolour.selectedIndex].value;
+                    document.body.style.color=val2;
+                }
+	</script>
+</head>
+<body>
+	<div class="topic">
+		<h3 class="topic-box">Gallery</h3>
+	</div>
+	<div class="header">
+        <div class="logo">
+          <a class="navbar-a" href="index.html"><img src="whitelogo.png" width="100px" alt=""></a>
+        </div>
+          <nav class="navbar">
+            <ul class="navbar-nav ">
+              <a class="nav-item" href="#home">
+                <li class="nav-link" >Home</li>
+              </a>
+              <a class="nav-item" href="/Users/Navod Dilshan/Desktop/student 4/Gallery/Gallery.html">
+                <li class="nav-link" >Gallery</li>
+              </a>
+              <a class="nav-item" href="#pricing">
+                <li class="nav-link" >Products</li>
+              </a>
+              <a class="nav-item" href="#faq">
+                <li class="nav-link" >Quiz</li>
+              </a>
+              <a class="nav-item" href="#faq">
+                <li class="nav-link" >About Us</li>
+              </a>
+            </ul>
+        </nav>
+     </div>
+     <div class="bgandtxtColour">
+     	<select name="backgroundcolour" onchange="changeBackgroundColour(this)">
+			    <option>Select Background Colour</option>
+                <option value="#E57373">RED</option>
+                <option value="#81D4FA">BLUE</option>
+                <option value="#FFF9C4">YELLOW</option>
+                <option value="#FFB74D">ORANGE</option>
+                <option value="#9E9E9E">GREY</option>
+     </select>    
+	<select name="textcolour" onchange="changeTextColour(this)">
+                <option>Select Text Colour</option>
+			    <option value="#D50000">RED</option>
+                <option value="#1A237E">BLUE</option>
+                <option value="#FBC02D">YELLOW</option>
+                <option value="#FF5722">ORANGE</option>
+                <option value="#000000">BLACK</option>
+    </select>
+    </div>
+	<div class="container">
+		<div class="TwoInOne">
+		<div class="box">
+			<div class="box-img">
+				<img src="img (1).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Tokyo</i></h2>
+				<p>Tokyo is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-img">
+				<img src="img (2).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Paris</i></h2>
+				<p>Paris is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		</div>
+		<div class="TwoInOne">
+		<div class="box">
+			<div class="box-img">
+				<img src="img (3).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Barcelona</i></h2>
+				<p>Barcelona is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-img">
+				<img src="img (4).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Italy</i></h2>
+				<p>Italy is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		</div>
+		<div class="TwoInOne">
+		<div class="box">
+			<div class="box-img">
+				<img src="img (5).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>London</i></h2>
+				<p>London is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-img">
+				<img src="img (6).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Madrid</i></h2>
+				<p>Madrid is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		</div>
+		<div class="TwoInOne">
+		<div class="box">
+			<div class="box-img">
+				<img src="img (7).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Lisbon</i></h2>
+				<p>Lisbon is very beautiful place to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="box-img">
+				<img src="img (8).jpg">
+			</div>
+			<div class="box-text">
+				<h2><i>Rome</i></h2>
+				<p>Rome is very beautiful town to visit and we are happy to perform there.</p>
+			</div>
+		</div>
+		</div>
+	</div>
+	<footer>
+			<br><br>
+			<button onclick="btn()" id="myBtn" title="Go to top">Back to Top</button>
+			<div class="social">
+				<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+				<a href="https://lk.linkedin.com"><i class="fa fa-linkedin"></i></a>
+  		</div>
+			<div class ="pageEditor">
+				<a href="../Editors page(navod)/Page Editor(navod).html"  id="PageEditor" style="text-decoration: none; color : blue;">Page Editor: Navod Dilshan</a>
+			</div>
+
+		</footer>
+</body>
+</html>

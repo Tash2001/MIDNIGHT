@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)), url(../img/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    background-color: black;
+    z-index: 200;
+    box-shadow: 1px 1px 1px 1px #eee;
+    width: 100%;
+    
+  }
+  
+
+  .header ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .header ul a li {
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: 500;
+  }
+  
+  .header ul a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .header ul a:hover {
+    color: rgb(141, 141, 141);
+    transition: all 0.5s;
+  }
+  .members{
+       margin-top: 5%;
+       height: 1200px;
+       width:100%;
+       margin-left: 20%;
+   
+       display: grid;
+       grid-template-columns:35% 50%;
+  }
+  h1{
+       font-size: 80px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color:wheat;
+       text-align: center;
+       padding-top: 3%;
+  }
+  .post{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+   padding-left: 50px;
+   
+  }
+  .post:hover .post-s{
+    width: 300px;
+   
+  }
+  .post img {
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+  .post-s{
+    width: 0px;
+    height: 400px;
+    background:  black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .post-s h2{
+    color: white;
+    font-size: 40px;
+    border: 6px solid white;
+    padding: 10px 30px;
+  }
+/* 2nd person */
+
+  .post2{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 50px;
+  }
+  .post2:hover .post2-s{
+    width: 300px;
+  }
+  .post2 img {
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+  .post2-s{
+    width: 0px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .post2-s h2{
+    color: white;
+    font-size: 40px;
+    border: 6px solid white;
+    padding: 10px 30px;
+  }
+
+
+  /* person3 */
+
+  .post3{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    
+    padding-left: 50px;
+  }
+  .post3:hover .post3-s{
+    width: 300px;
+  }
+  .post3 img {
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+  .post3-s{
+    width: 0px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .post3-s h2{
+    color: white;
+    font-size: 40px;
+    border: 6px solid white;
+    padding: 10px 30px;
+  }
+
+
+   /* person4 */
+
+   .post4{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    
+    padding-left: 90px;
+  }
+  .post4:hover .post4-s{
+    width: 300px;
+  }
+  .post4 img {
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+  .post4-s{
+    width: 0px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+  }
+  .post4-s h2{
+    color: white;
+    font-size: 40px;
+    border: 6px solid white;
+    padding: 10px 30px;
+  }
+
+  footer {	
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(161, 161, 172);
+    text-align: center;
+ }
+	
+	    
+footer a{
+	color:white; 
+}
+footer a:hover{
+    color: grey;
+}
+
+
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.social {
+  padding-top: 1%;
+  padding-bottom: 1%;
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+  padding-bottom: 1%;
+}

@@ -1,0 +1,116 @@
+body {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+			
+#svgJS g:hover polygon,
+#svgJS g:hover text,
+#svgJS g:focus polygon,
+#svgJS g:focus rect{
+	fill:hsla(24, 20%, 50%, .3);
+	stroke:black;
+	stroke-width:1;
+}
+.header {
+	font-family: Montserrat;
+    display: flex;
+    top:0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 200;
+    box-shadow: 1px 1px 1px 1px #eee;
+    width: 100%;
+    position: fixed;
+ }
+ .header .logo > img{
+    width: 60%;
+    height: auto;
+ }
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul a li {
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.header ul a {
+    text-decoration: none;
+    color: white;
+}  
+.header ul a:hover {
+    color: rgb(141, 141, 141);
+    transition: all 0.5s;
+}
+.footer {	
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(161, 161, 172);
+    text-align: center;
+ }
+	
+	    
+footer a{
+	color:white; 
+}
+footer a:hover{
+    color: grey;
+}
+
+
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.social {
+  padding-top: 1%;
+  padding-bottom: 1%;
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+  padding-bottom: 1%;
+}
+#myBtn{
+	font-family: Montserrat;
+	align-items: center;
+	font-weight: 875;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	bottom: 0;
+  	margin: 173px 20px 20px;
+	padding: 14px 25px;
+	background-color: #8b939c;
+	border: none;
+	border-radius: 50px;
+	transition : 0ms;
+	transform: translateY(0);
+	text-transform: uppercase;
+}
+#myBtn:hover{
+	transition : 0ms;
+	padding: 10px 20px;
+	transform : translateY(-0px);
+	background-color: #fff;
+	color: #0066cc;
+	border: solid 5px #0066cc;
+}

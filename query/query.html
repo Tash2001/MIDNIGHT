@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>query</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+          <a class="navbar-a" href="index.html"><img src="img/LOGO.png" width="80px" alt=""></a>
+        </div>
+          <nav class="navbar">
+            <ul class="navbar-nav ">
+              <a class="nav-item" href="../main/index.html">
+                <li class="nav-link" >Home</li>
+              </a>
+              <a class="nav-item" href="../Gallery/Gallery.html">
+                <li class="nav-link" >Gallery</li>
+              </a>
+              <a class="nav-item" href="../Quiz/QuizPage.html">
+                <li class="nav-link" >Quiz</li>
+              </a>
+              <a class="nav-item" href="../Store/buy_product.html">
+                <li class="nav-link" >Products</li>
+              </a>
+              <a class="nav-item" href="../query/query.html">
+                <li class="nav-link" >Contact us</li>
+              </a>
+            </ul>
+        </nav>
+      </div>
+
+    <div class="main">
+        <h1>THE QUERY FORM</h1>
+
+        <div class="form">
+            <form action="details.html" method="GET" onsubmit="return clickme();">
+                <label htmlFor="name">Name :</label> <br>
+                <input type="text" name="name" id="name"/> <br> <br>
+                <label htmlFor="email">Email :</label> <br>
+                <input type="email" name="email" id="email"/> <br> <br>
+                <label htmlFor="subject">Subject :</label> <br>
+                <input type="text" name="subject" id="subject" /> <br> <br>
+                <p>Select a theme :</p> 
+                <input type="radio" name="radio" value="product" id="radio1">
+                <label for="radio1">Product issue</label>
+                <input type="radio" name="radio" value="delivary" id="radio2">
+                <label for="radio2">Delivary issue</label>
+                <input type="radio" name="radio" value="payment" id="radio3">
+                <label for="radio3">Payment issue</label>
+                <input type="radio" name="radio" value="other" id="radio4">
+                <label for="radio4">Other issue</label> <br> <br>
+                <label htmlFor="query">Details :</label> <br>
+                <textarea name="query" cols='80' rows='10' id="query"></textarea> <br> <br>
+                <button class="button" id="submit" type="submit">View Query</button>
+            </form>
+        </div>
+    </div>
+    <div class ="pageEditor"><a href="../pageeditor/pageeditor.html"  id="PageEditor" style="text-decoration:none;color : white;">Page Editor</a></div>
+    <script src="query.js"></script>
+
+    <br><br><br>
+  </div>
+<footer>
+<br><br>
+<img src="../img/arrow.png" alt="arrow" width="25" height="25"><a href="#top">Back To The Top</a>
+<div class="social">
+<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+<a href="https://lk.linkedin.com"><i class="fa fa-linkedin"></i></a>
+
+</div>
+<div class ="pageEditor"><a href="../pageeditor(vinuka)/pageeditor(vinuka).html"  id="PageEditor" style="text-decoration:none;color : black;">Page Editor</a></div>
+
+</footer>
+</body>
+</html>

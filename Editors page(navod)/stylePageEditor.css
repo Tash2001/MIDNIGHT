@@ -1,0 +1,176 @@
+.header {
+    display: flex;
+    font-family: Montserrat;
+    top:0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 200;
+    box-shadow: 1px 1px 1px 1px #eee;
+    width: 100%;
+    position: fixed;
+ }
+ .header .logo > img{
+    width: 60%;
+    height: auto;
+ }
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul a li {
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.header ul a {
+    text-decoration: none;
+    color: white;
+}  
+.header ul a:hover {
+    color: rgb(141, 141, 141);
+    transition: all 0.5s;
+}
+  .profileBackground
+  {
+    margin-top: 20px;
+    height: 500px;
+    background-color: Cyan;
+    background-image: linear-gradient(to right, #7370FE, #7DF9FF);
+  }
+  
+  .profileBase
+  {
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 100px 0px 0px 310px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .profilePhoto
+  {
+    float: left;
+    position: relative;
+    margin: 20px 20px 10px 20px;
+    width: 450px;
+    height: 510px;
+    border-radius: 8px;
+  }
+  
+  .profileDescription
+  {
+    position: relative;
+    margin: 50px 20px 50px 510px;
+    width: 350px;
+    height: 450px;
+    color: #424242;
+    font-weight: bold;
+  }
+  
+  .profileHeading
+  {
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+    margin: 0px 0px 0px 200px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .profileName
+  {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: black;
+  }
+  
+  .profileTitle
+  {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+  }
+  
+  .profileText
+  {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  
+  .taskList
+  {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  
+  .profileIcons
+  {
+    margin: 0px 30px 5px 70px;
+    font-weight: normal;
+    word-spacing: 20px;
+    float: left;
+    clear: right;
+  }
+  footer a{
+  color:white; 
+}
+footer a:hover{
+    color: grey;
+}
+
+
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.social {
+  padding-top: 1%;
+  padding-bottom: 1%;
+   text-align:center;
+}
+.pageEditor {
+  text-align:center;
+  padding-bottom: 1%;
+}
+#myBtn{
+  font-family: Montserrat;
+  align-items: center;
+  font-weight: 875;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  bottom: 0;
+    margin: 173px 20px 20px;
+  padding: 14px 25px;
+  background-color: #8b939c;
+  border: none;
+  border-radius: 50px;
+  transition : 0ms;
+  transform: translateY(0);
+  text-transform: uppercase;
+}
+#myBtn:hover{
+  transition : 0ms;
+  padding: 10px 20px;
+  transform : translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 5px #0066cc;
+}
